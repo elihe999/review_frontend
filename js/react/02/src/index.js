@@ -1,3 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-ReactDOM.render(<div>Hello</div>, document.getElementById("root"));
+
+import HocText from "./compoents/HocTest";
+
+ReactDOM.render(<div>Hello<HocText /></div>, document.getElementById("root"));
